@@ -4,7 +4,6 @@
  <IDPSSODescriptor>
 
   <KeyDescriptor use="signing">
-  -----BEGIN CERTIFICATE-----
   MIIDHTCCAgWgAwIBAgIJFRc3BF1mc7SKMA0GCSqGSIb3DQEBCwUAMCwxKjAoBgNV
   BAMTIWRldi1uOGFjdTZoc29vZWw3Ymd5LnVzLmF1dGgwLmNvbTAeFw0yNjA5MDMw
   MTAzNTVaFw00MDA1MTIwMTAzNTVaMCwxKjAoBgNVBAMTIWRldi1uOGFjdTZoc29v
@@ -22,7 +21,6 @@
   oMoY0MGOTYBqizIsItBxPgyEFAk+VvLlv1sw1BDfph0rezzl6c2Io5sxI+FkZyxs
   4NHvlUd7yg7Wi7eybkOQ15kW0A9LGIIlx7+qXrV+DOsTi1QJGwcZXf8Z5OrU7RCV
   SqCfZMyv7aw6TlllymKm7saeXdGdTYhQRe4Jx3DYw+hc
-  -----END CERTIFICATE-----
   </KeyDescriptor>
 
   <SingleSignOnService
