@@ -1,32 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <EntityDescriptor
+ xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
  entityID="https://samltest.id/saml/idp">
 
- <IDPSSODescriptor>
+<IDPSSODescriptor
+ protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 
-  <KeyDescriptor use="signing">
-  MIIDHTCCAgWgAwIBAgIJFRc3BF1mc7SKMA0GCSqGSIb3DQEBCwUAMCwxKjAoBgNV
-  BAMTIWRldi1uOGFjdTZoc29vZWw3Ymd5LnVzLmF1dGgwLmNvbTAeFw0yNjA5MDMw
-  MTAzNTVaFw00MDA1MTIwMTAzNTVaMCwxKjAoBgNVBAMTIWRldi1uOGFjdTZoc29v
-  ZWw3Ymd5LnVzLmF1dGgwLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
-  ggEBAMEnnD4vjrdOSa53LmJFDxiTltaeKsMUtFa4y/sHKDAvhuCYyQ/Phw4PjINp
-  LjY+3q+V+wPJriA4pu4XCdMwbI/ao2V/dLShc+V3QnKfDEo5V0MklqmCHCE5Kyyr
-  4otsGxqBw7lY3IBOcRYDnGtb3jeUySB44XL+sWEIr/U8J7ajHwuIBV1xVU4E91dJ
-  hI/vCvgwhZWSZPqcKXQ8nsyxcGa76JaGjD44xL9WBDLUcRxwUzvTTMZXTDHb5zbn
-  BT8Jc4Gj8Ojw+8fp6oft+wxpK6w8+BWiYdiBKvtlNC3k8FIdGBbXBJe+Q7iVwvV2
-  RvPu7Uiemwa7GhBpbrg8sgriQKsCAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAd
-  BgNVHQ4EFgQUnu2o9HLa+dmDvJjS0NkWhSta2hgwDgYDVR0PAQH/BAQDAgKEMA0G
-  CSqGSIb3DQEBCwUAA4IBAQAOieS9RJP7PlpSdqmuVtd3aS4EINxWw3TGtmjhXDg9
-  fo7OAOagD23MGOWnULMf6WX/j3vfLTv7dN9zjTO147tj3juipzetbeaUIphJEevt
-  8QP+2D4hqfmH2/3fRui+veM/UuX/OQE+ou9xPK0ejdXTrumK0Uvs8oT/JtnTHC1M
-  oMoY0MGOTYBqizIsItBxPgyEFAk+VvLlv1sw1BDfph0rezzl6c2Io5sxI+FkZyxs
-  4NHvlUd7yg7Wi7eybkOQ15kW0A9LGIIlx7+qXrV+DOsTi1QJGwcZXf8Z5OrU7RCV
-  SqCfZMyv7aw6TlllymKm7saeXdGdTYhQRe4Jx3DYw+hc
-  </KeyDescriptor>
+<KeyDescriptor use="signing">
 
-  <SingleSignOnService
-      Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
-      Location="https://samltest.id/idp/profile/SAML2/Redirect/SSO"/>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 
- </IDPSSODescriptor>
+<ds:X509Data>
+
+<ds:X509Certificate>
+
+MIIDHTCCAgWgAwIBAgIJFRc3BF1mc7SKMA0GCSqGSIb3DQEBCwUAMCwxKjAoBgNV
+BAMTIWRldi1uOGFjdTZoc29vZWw3Ymd5LnVzLmF1dGgwLmNvbTAeFw0yNjA5MDMw
+MTAzNTVaFw00MDA1MTIwMTAzNTVaMCwxKjAoBgNVBAMTIWRldi1uOGFjdTZoc29v
+ZWw3Ymd5LnVzLmF1dGgwLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAMEnnD4vjrdOSa53LmJFDxiTltaeKsMUtFa4y/sHKDAvhuCYyQ/Phw4PjINp
+LjY+3q+V+wPJriA4pu4XCdMwbI/ao2V/dLShc+V3QnKfDEo5V0MklqmCHCE5Kyyr
+4otsGxqBw7lY3IBOcRYDnGtb3jeUySB44XL+sWEIr/U8J7ajHwuIBV1xVU4E91dJ
+hI/vCvgwhZWSZPqcKXQ8nsyxcGa76JaGjD44xL9WBDLUcRxwUzvTTMZXTDHb5zbn
+BT8Jc4Gj8Ojw+8fp6oft+wxpK6w8+BWiYdiBKvtlNC3k8FIdGBbXBJe+Q7iVwvV2
+RvPu7Uiemwa7GhBpbrg8sgriQKsCAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAd
+BgNVHQ4EFgQUnu2o9HLa+dmDvJjS0NkWhSta2hgwDgYDVR0PAQH/BAQDAgKEMA0G
+CSqGSIb3DQEBCwUAA4IBAQAOieS9RJP7PlpSdqmuVtd3aS4EINxWw3TGtmjhXDg9
+fo7OAOagD23MGOWnULMf6WX/j3vfLTv7dN9zjTO147tj3juipzetbeaUIphJEevt
+8QP+2D4hqfmH2/3fRui+veM/UuX/OQE+ou9xPK0ejdXTrumK0Uvs8oT/JtnTHC1M
+oMoY0MGOTYBqizIsItBxPgyEFAk+VvLlv1sw1BDfph0rezzl6c2Io5sxI+FkZyxs
+4NHvlUd7yg7Wi7eybkOQ15kW0A9LGIIlx7+qXrV+DOsTi1QJGwcZXf8Z5OrU7RCV
+SqCfZMyv7aw6TlllymKm7saeXdGdTYhQRe4Jx3DYw+hc
+
+</ds:X509Certificate>
+
+</ds:X509Data>
+
+</ds:KeyInfo>
+
+</KeyDescriptor>
+
+<SingleSignOnService
+ Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+ Location="https://samltest.id/idp/profile/SAML2/Redirect/SSO"/>
+
+</IDPSSODescriptor>
 
 </EntityDescriptor>
